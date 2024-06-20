@@ -1,0 +1,97 @@
+:root{
+    background-color:rgb(175, 205, 250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    cursor: default;
+    
+}
+
+textarea{
+    resize: none;
+    background-color:rgb(228, 220, 220);
+    color: black;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: justify;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.celcius{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Fahrenheit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 6px #999;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:hover{
+    background-color: #3e8e41;
+
+}
+
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
+p{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p span{
+    font-size: 30px;
+    font-style:oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Media Queries untuk responsif */
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 62.5%;
+    }
+}
+  /* Mobile */
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
